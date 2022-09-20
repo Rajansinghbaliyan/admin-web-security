@@ -57,6 +57,15 @@ public class Customer {
         this.email = email;
     }
 
+    public String getPasswordHash() {
+        return passwordHash;
+    }
+
+    public Customer setPasswordHash(String passwordHash) {
+        this.passwordHash = passwordHash;
+        return this;
+    }
+
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -67,13 +76,13 @@ public class Customer {
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("Customer{");
-        sb.append("id=").append(id);
-        sb.append(", name='").append(name).append('\'');
-        sb.append(", contactName='").append(contactName).append('\'');
-        sb.append(", email='").append(email).append('\'');
-        sb.append(", phoneNumber='").append(phoneNumber).append('\'');
-        sb.append('}');
-        return sb.toString();
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", contactName='" + contactName + '\'' +
+                ", email='" + email + '\'' +
+                ", passwordHash='" + passwordHash + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
     }
 }
