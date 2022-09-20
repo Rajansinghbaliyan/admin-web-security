@@ -1,4 +1,4 @@
-package com.frankmoley.lil.adminweb.web;
+package com.frankmoley.lil.adminweb.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package com.frankmoley.lil.adminweb.web;
+package com.frankmoley.lil.adminweb.web.model;
 
 public class OrderModel {
     private long orderId;

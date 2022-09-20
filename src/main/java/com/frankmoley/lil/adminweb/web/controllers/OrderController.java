@@ -1,4 +1,4 @@
-package com.frankmoley.lil.adminweb.web;
+package com.frankmoley.lil.adminweb.web.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +8,7 @@ import com.frankmoley.lil.adminweb.data.model.Customer;
 import com.frankmoley.lil.adminweb.data.model.Order;
 import com.frankmoley.lil.adminweb.data.repository.CustomerRepository;
 import com.frankmoley.lil.adminweb.data.repository.OrderRepository;
+import com.frankmoley.lil.adminweb.web.model.OrderModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
