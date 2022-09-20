@@ -3,6 +3,7 @@ CREATE TABLE customers(
     name varchar(64) not null,
     contact_name varchar(128) not null,
     email varchar(128) not null,
+    password_hash varchar(128) not null,
     phone varchar(24) not null
 );
 

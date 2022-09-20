@@ -20,6 +20,8 @@ public class Customer {
     private String contactName;
     @Column(name="email")
     private String email;
+    @Column(name ="password_hash")
+    private String passwordHash;
     @Column(name="phone")
     private String phoneNumber;
 
